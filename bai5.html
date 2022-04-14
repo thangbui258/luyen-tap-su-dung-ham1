@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>in ket qua mang</title>
+</head>
+<body>
+<script>
+    let A = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
+    let B = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
+    let a = prompt('nhap phan tu cua mang A:')
+
+    function serth(a) {
+        let x = A.indexOf(a);
+        return B[x];
+    }
+
+    alert(serth(a));
+</script>
+</body>
+</html>

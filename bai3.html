@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>so sanh 2 gia tri</title>
+</head>
+<body>
+<script>
+    let a = +prompt('nhap vao so thu nhat: ')
+    let b = +prompt('nhap vao so thu hai: ')
+
+    function compare(x, y) {
+        if (a > b) {
+            y = true
+        } else {
+            y = false
+        }
+        return y;
+    }
+
+    let c;
+    if (compare(a, b)) {
+        alert('so thu nhat lon  hon so thu hai')
+    } else {
+        c = a + b;
+        alert('tong cua hai so la: ' + c);
+    }
+
+
+</script>
+</body>
+</html>
